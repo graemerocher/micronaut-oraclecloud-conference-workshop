@@ -4,9 +4,7 @@ Oracle provides an open, modern, easy and intelligent platform and infrastructur
 
 This workshop will take you through combining Micronaut and Oracle Cloud with Autonomous Database to build an efficient and lean Microservice application.
 
-This workshop requires the instructor to provide access to a virtual environment before continuing.
-
-The full workshop content can be accessed [here](https://graemerocher.github.io/micronaut-oraclecloud-workshop/workshop/).
+The full workshop content can be accessed [here](https://graemerocher.github.io/micronaut-oraclecloud-conference-workshop/workshop/).
 
 ## Product Pages
 - [Micronaut](https://micronaut.io/)
