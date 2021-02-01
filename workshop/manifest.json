@@ -61,11 +61,11 @@
             "filename": "../lab_data_jdbc/lab_data_jdbc.md"
         },
         {
-            "title": "Lab 14: Building a Native Image",
+            "title": "Lab 11: Building a Native Image",
             "filename": "../lab_native_image/lab_native_image.md"
         },
         {
-            "title": "Lab 15: Going to Production",
+            "title": "Lab 12: Going to Production",
             "filename": "../lab_deployment/lab_deployment.md"
         }
 
