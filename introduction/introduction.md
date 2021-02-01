@@ -6,7 +6,7 @@ This workshop is for Java Developers looking to start building applications with
 
 The workshop features several labs that walk you through the steps to get going with Micronaut and Oracle Cloud.
 
-The source code with completed example code is [available on Github](https://github.com/graemerocher/micronaut-oraclecloud-workshop).
+The source code with completed example code is [available on Github](https://github.com/graemerocher/micronaut-oraclecloud-conference-workshop).
 
 Several branches exist in the source code for different permutations of the application:
 
@@ -35,11 +35,8 @@ This 4-hour lab walks you through the steps to use Micronaut, Micronaut Data and
 - Lab 8: Defining an HTTP Client
 - Lab 9: Setting up a Database Schema
 - Lab 10: Writing JDBC Data Access Repositories
-- Lab 11: Writing JPA Data Access Repositories
-- Lab 12: Exposing OpenAPI Documentation
-- Lab 13: Adding Management and Monitoring
-- Lab 14: Building a Native Image
-- Lab 15: Going to Production
+- Lab 11: Building a Native Image
+- Lab 12: Going to Production
 
 ### Prerequisites
 - Understanding of the Java programming language

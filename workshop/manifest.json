@@ -6,11 +6,16 @@
             "title": "Introduction",
             "description": "Introduction to building Micronaut applications with Autonomous database.",
             "filename": "../introduction/introduction.md"
-        },
+        },        
         {
             "title": "Prerequisites",
             "description": "What you need before we begin",
             "filename": "../introduction/prerequisites.md"
+        },
+        {
+            "title": "Signup for Oracle Cloud",
+            "description": "In this Lab you with signup for an Oracle Cloud account.",
+            "filename": "https://raw.githubusercontent.com/oracle/learning-library/master/common/labs/cloud-login/pre-register-free-tier-account.md"
         },        
         {
             "title": "Lab 1: Getting to Know Micronaut",
@@ -54,18 +59,6 @@
         {
             "title": "Lab 10: Writing JDBC Data Access Repositories",
             "filename": "../lab_data_jdbc/lab_data_jdbc.md"
-        },
-        {
-            "title": "Lab 11: Writing JPA Data Access Repositories",
-            "filename": "../lab_data_jpa/lab_data_jpa.md"
-        },
-        {
-            "title": "Lab 12: Exposing OpenAPI Documentation",
-            "filename": "../lab_openapi/lab_openapi.md"
-        },
-        {
-            "title": "Lab 13: Adding Management & Monitoring",
-            "filename": "../lab_management/lab_management.md"
         },
         {
             "title": "Lab 14: Building a Native Image",

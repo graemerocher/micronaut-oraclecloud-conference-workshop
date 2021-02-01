@@ -2,27 +2,39 @@
 
 ## Before We Begin
 
-This workshop is designed to be delivered virtually and entirely through your web browser hence the only prerequisite is a modern browser such as Chrome, Edge or Firefox.
+Prior to starting this workshop you should make sure you have the necessary software installed on your local machine.
 
-This avoids the need for attendees to get setup locally with the necessary tooling and development environment. The virtual environment provided is pre-configured with:
+The following software needs to be installed prior to commencing the workshop:
 
-* Micronaut 2.2.0
-* GraalVM 20.3.0 for JDK 11
-* The Oracle Cloud CLI
-* Docker
-* JetBrains Projector IDE
+* [Micronaut 2.3.0](https://micronaut-projects.github.io/micronaut-starter/latest/guide/#installation)
+* [GraalVM 21.0.0 for JDK 11](https://www.graalvm.org/docs/getting-started/#install-graalvm)
+* [Docker](https://docs.docker.com/get-docker/)
+* Terminal Access (If you are using Windows Cygwin or WSL)
+* An IDE such as either [IntelliJ IDEA](https://www.jetbrains.com/idea/download/#section=mac) or [VSCode](https://code.visualstudio.com/download) with the [GraalVM Extension Pack](https://marketplace.visualstudio.com/items?itemName=oracle-labs-graalvm.graalvm-pack)
 
-Prior to beginning, your instructor will provide you with the web address to access the in-browser Cloud IDE which you will use for the remainder of the workshop to learn how to build applications with Micronaut and deploy them to Oracle Cloud.
+For easiest install it is recommended to install Micronaut and GraalVM via [SDKMan!](https://sdkman.io) with the following commands:
 
-The IDE is based on JetBrains Projector with IntelliJ Community Edition and you should perform the following steps before you begin:
+    <copy>
+	sdk install micronaut 2.3.0
+	sdk install java 21.0.0.r11-grl
+	gu install native-image
+	</copy>
 
-1. Navigate to the URL provided by your instructor
-2. You will likely receive an HTTPS warning about the certificate. In Chrome you should click "Advanced" and then the "Proceed" link to continue.
-3. If for any reason the page doesn't load try hit the refresh button.
-4. From the "Project Dialog" select "Open or Import"
+If you have configured everything correctly your Terminal should output the following:
 
-    ![Project Dialog](images/project-dialog.png)
+```bash
+$ mn --version
+Micronaut Version: 2.3.0
 
-5. Navigate to `/home/opc/demo` and open the directory
+$ java -version
+openjdk version "11.0.10" 2021-01-19
+OpenJDK Runtime Environment GraalVM CE 21.0.0 (build 11.0.10+8-jvmci-21.0-b06)
+OpenJDK 64-Bit Server VM GraalVM CE 21.0.0 (build 11.0.10+8-jvmci-21.0-b06, mixed mode, sharing)
 
-    ![Project Dialog](images/open-dialog.png)
+$ native-image --version
+GraalVM Version 21.0.0 (Java Version 11.0.10+8-jvmci-21.0-b06)
+```
+
+The final prerequisite is an Oracle Cloud account. The following sections takes you through the signup process. 
+
+You may now *proceed to the next lab*.
